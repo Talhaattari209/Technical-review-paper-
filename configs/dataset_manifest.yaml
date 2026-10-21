@@ -1,0 +1,45 @@
+dataset_manifest:
+  name: "Kaggle XAU/USD Historical Hourly Dataset"
+  source_file: "C:/Users/User/Downloads/MQL_coding_strategies/Gold_data_kaggle/XAU_1h_data.csv"
+  instrument: "XAU/USD"
+  asset_class: "Commodity Spot / CFD"
+  timeframe: "1-Hour (H1)"
+  timezone: "UTC"
+  data_category: "Historical OHLCV bar observations (publicly sourced dataset)"
+  format: "Semicolon-delimited CSV"
+  provenance_and_licensing:
+    origin: "Kaggle Gold dataset export"
+    measurement_type: "Broker-aggregated hourly OHLCV bars (not verified exchange tick tape)"
+    volume_semantics: "Tick frequency count / volume proxy"
+    licensing: "Research / educational use"
+  columns:
+    - name: "Date"
+      type: "string (format: YYYY.MM.DD HH:MM)"
+      description: "Bar open timestamp in UTC"
+    - name: "Open"
+      type: "float64"
+      description: "Hourly open price"
+    - name: "High"
+      type: "float64"
+      description: "Hourly high price"
+    - name: "Low"
+      type: "float64"
+      description: "Hourly low price"
+    - name: "Close"
+      type: "float64"
+      description: "Hourly close price"
+    - name: "Volume"
+      type: "float64"
+      description: "Tick volume"
+  row_count: 125206
+  start_date: "2004-06-11 07:00:00"
+  end_date: "2026-01-30 23:00:00"
+  missing_values_count: 0
+  sha256: "f143104b6ecd5634d82dcf2805711254c4d2e771cae84d742a21543791bca954"
+  temporal_integrity_protocol:
+    weekend_gaps: "Standard FX/Commodity market weekend closure preserved (no artificial bfill)"
+    decision_execution_convention: "Signal generated at bar close t-1; executed at bar open t"
+    friction_model: "Half-spread >= 1.0 bps + base slippage >= 1.0 bps + commission >= 1.0 bps"
+    development_fraction: 0.70
+    holdout_quarantine_fraction: 0.30
+    holdout_quarantine_enforced: true

@@ -1,0 +1,3 @@
+trial_type,trial_count,observed_sharpe,expected_max_sharpe,sharpe_std_err,dsr_z_stat,p_exceedance (1-Phi),dsr_cdf (Phi),skewness,kurtosis,sample_length_t
+PRIMARY_N_TRIALS,30.0,-1.416618008397006,3.803903142014038,0.03182519312622329,-164.0373238060952,1.0,0.0,0.0,3.0,1979
+SENSITIVITY_N_EFF,12.0,-1.416618008397006,3.0543092328919217,0.03182519312622329,-140.48385562714535,1.0,0.0,0.0,3.0,1979

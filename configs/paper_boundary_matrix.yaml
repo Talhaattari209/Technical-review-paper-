@@ -1,0 +1,57 @@
+paper_boundaries:
+  paper_1:
+    id: "paper1_discovery"
+    title: "Constrained Genetic Programming and Program Synthesis for Systematic Alpha Discovery"
+    scope: "Search-space generation, AST grammar constraints, algebraic canonicalization, and novelty archives"
+    core_research_question: "How do domain-informed grammatical constraints and behavioral novelty archives mitigate strategy crowding and expression bloat in automated alpha discovery?"
+    included_concepts:
+      - "AST representation and genetic mutation/crossover boundaries"
+      - "SymPy-based structural and algebraic canonicalization"
+      - "Bi-objective Pareto optimization (Sharpe vs. Novelty distance)"
+      - "Information Coefficient (IC) decay horizon modeling"
+    excluded_concepts:
+      - "Exhaustive CSCV PBO distributions (belongs to Paper 2)"
+      - "LOB queue microstructure & Almgren-Chriss liquidation (belongs to Paper 3)"
+    primary_figures:
+      - "fig_1_1_ast_graph.png"
+      - "fig_1_2_ic_decay.png"
+      - "fig_1_3_pareto_front.png"
+      - "fig_1_4_regimes.png"
+
+  paper_2:
+    id: "paper2_validation"
+    title: "Deflating the Backtest: Point-in-Time Integrity, Combinatorial CV, and Statistical Overfitting Controls"
+    scope: "Temporal leakage prevention, CSCV PBO, Deflated Sharpe Ratio, and False Discovery Rate controls"
+    core_research_question: "How do combinatorial cross-validation (CSCV) and non-normal multiple-testing adjustments (DSR) quantify selection bias in algorithmic investment strategies?"
+    included_concepts:
+      - "Strict Point-in-Time (PIT) feature engineering without backfill"
+      - "Exhaustive C(16, 8) = 12,870 Combinatorially Symmetric Cross-Validation (CSCV)"
+      - "Deflated Sharpe Ratio (DSR) with raw trial count primary and N_eff sensitivity"
+      - "Benjamini-Hochberg False Discovery Rate (FDR) control"
+    excluded_concepts:
+      - "Genetic AST grammar crossover mechanics (belongs to Paper 1)"
+      - "LOB execution scheduling & CUSUM operational drift (belongs to Paper 3)"
+    primary_figures:
+      - "fig_2_1_pbo_distribution.png"
+      - "fig_2_2_wf_equity.png"
+      - "fig_2_3_dsr_sensitivity.png"
+      - "fig_2_4_fdr_threshold.png"
+
+  paper_3:
+    id: "paper3_execution"
+    title: "From Alpha to Execution: Market Friction, Order Book Dynamics, and Statistical Drift Monitoring"
+    scope: "Implementation shortfall, optimal liquidation trajectories, dynamic slippage, and CUSUM drift detection"
+    core_research_question: "How do limit order book depth dynamics and cumulative residual drift monitoring govern the operational decay of systematic alpha?"
+    included_concepts:
+      - "Implementation shortfall accounting with dynamic participation penalties"
+      - "Closed-form Almgren-Chriss liquidation vs. Linear TWAP and Intraday VWAP baselines"
+      - "Gymnasium-based Limit Order Book (LOB) queue depletion simulation"
+      - "Bootstrap-calibrated CUSUM / Page-Hinkley drift monitoring (ARL_0 >= 252)"
+    excluded_concepts:
+      - "AST symbolic tree mutation (belongs to Paper 1)"
+      - "Exhaustive CSCV partition permutation theory (belongs to Paper 2)"
+    primary_figures:
+      - "fig_3_1_lob_depth.png"
+      - "fig_3_2_execution_trajectory.png"
+      - "fig_3_3_slippage_curve.png"
+      - "fig_3_4_drift_alarms.png"

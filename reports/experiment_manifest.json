@@ -1,0 +1,80 @@
+[
+  {
+    "timestamp": "2026-10-17T13:14:15.821923+00:00",
+    "experiment_id": "EXP_INIT",
+    "stage": "REGISTRY_INIT",
+    "status": "SUCCESS",
+    "parameters": {
+      "version": "0.3.0"
+    },
+    "data_hashes": {},
+    "code_manifest_summary": {
+      "file_count": 0,
+      "combined_hash": null
+    },
+    "metrics": {}
+  },
+  {
+    "timestamp": "2026-10-17T13:14:48.590115+00:00",
+    "experiment_id": "EXP_INIT",
+    "stage": "REGISTRY_INIT",
+    "status": "SUCCESS",
+    "parameters": {
+      "version": "0.3.0"
+    },
+    "data_hashes": {},
+    "code_manifest_summary": {
+      "file_count": 0,
+      "combined_hash": "5eec5919c76c7a47c07308bfff3697559a6b67fecaa7e085f144a0a24a73fcdc"
+    },
+    "metrics": {}
+  },
+  {
+    "timestamp": "2026-10-17T15:21:48.628130+00:00",
+    "experiment_id": "EXP_INIT",
+    "stage": "REGISTRY_INIT",
+    "status": "SUCCESS",
+    "parameters": {
+      "version": "0.3.0",
+      "governance": "AUDITED_V4"
+    },
+    "data_hashes": {},
+    "code_manifest_summary": {
+      "file_count": 0,
+      "combined_hash": "3228544d2138352d516de57ac871a81c18060836ddb165badcee944227916f97"
+    },
+    "metrics": {}
+  },
+  {
+    "timestamp": "2026-10-18T11:03:44.390926+00:00",
+    "experiment_id": "EXP_INIT_V6",
+    "stage": "REGISTRY_INIT",
+    "status": "SUCCESS",
+    "parameters": {
+      "version": "0.3.0",
+      "governance": "AUDITED_V6_EXHAUSTIVE"
+    },
+    "data_hashes": {},
+    "code_manifest_summary": {
+      "file_count": 0,
+      "combined_hash": "d43bf61e99173d32f53c1e4f959c72fbd2a306d22bc6d82c128cb87929420dd4"
+    },
+    "metrics": {}
+  },
+  {
+    "timestamp": "2026-10-19T05:52:27.257494+00:00",
+    "experiment_id": "EXP_INIT_V6",
+    "stage": "REGISTRY_INIT",
+    "status": "SUCCESS",
+    "parameters": {
+      "version": "0.3.0",
+      "governance": "AUDITED_V6_EXHAUSTIVE"
+    },
+    "data_hashes": {},
+    "code_manifest_summary": {
+      "file_count": 0,
+      "combined_hash": "8e51e4e2fecc0ab56ce70ddf8806f898977cccbeeb5e607577c0a65d3738aac8"
+    },
+    "metrics": {}
+  }
+]
